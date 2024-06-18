@@ -8,48 +8,36 @@
     android:orientation="vertical"
     android:background="@drawable/w1"
     android:gravity="center"
-    tools:context=".SignUpActivity">
-    
+
+    tools:context=".SignInActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
-
+        
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/imageview"
-            android:src="@drawable/ic_whatsapp" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtUsername"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="10dp"
-            android:ems="10"
-            android:hint="Username"
-            android:inputType="textPersonName"
-            android:padding="9dp"
-            android:textColor="@color/lightGrey"
-            android:textColorHint="@color/chatbackground"
+            android:src="@drawable/ic_whatsapp"
+            android:id="@+id/imageView"
             />
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:id="@+id/txtEmail"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
+            android:textColor="@color/white"
             android:textColorHint="@color/chatbackground"
             />
         <EditText
@@ -57,30 +45,31 @@
             android:layout_height="wrap_content"
             android:id="@+id/txtPassword"
             android:ems="10"
-            android:hint="Password"
+            android:hint="Email"
             android:inputType="textPassword"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
+            android:textColor="@color/white"
             android:textColorHint="@color/chatbackground"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtAlreadyHaveAccount"
-            android:layout_gravity="right"
-            android:text="Already have Account?"
+            android:id="@+id/txtClickSignUp"
+            android:text="Click to Sign Up"
             android:textColor="@color/white"
+            android:layout_gravity="right"
             android:padding="5dp"
-            android:gravity="right"
+            android:textSize="16sp"
             android:textStyle="bold"
             />
+
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btnSignUp"
+            android:id="@+id/btnSignIn"
             android:layout_marginTop = "10dp"
             android:padding="15dp"
-            android:text="Sign Up"
+            android:text="Sign In"
             android:textAllCaps = "false"
             app:backgroundTint = "@color/design_default_color_secondary_variant"
             app:cornerRadius = "8dp"
@@ -123,6 +112,7 @@
                 app:cornerRadius = "8dp"
                 />
         </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -134,4 +124,6 @@
             />
 
     </LinearLayout>
+
+
 </LinearLayout>
