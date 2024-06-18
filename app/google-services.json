@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1095414463421",
+    "project_id": "whatappclone-af77b",
+    "storage_bucket": "whatappclone-af77b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095414463421:android:cdfda671842bb35f5bf0d4",
+        "android_client_info": {
+          "package_name": "com.example.whatappclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5qqjb6LsDTwgK7RnYf8xwc3BxFW3ZvFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
